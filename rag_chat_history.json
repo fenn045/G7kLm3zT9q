@@ -1,0 +1,42 @@
+[
+  {
+    "role": "user",
+    "content": "file excel company data có nội dung gì?"
+  },
+  {
+    "role": "assistant",
+    "content": "File Excel `company data` chứa dữ liệu về sản phẩm, thành phố, kênh lưu lượng truy cập, gói giá, giá cả và dữ liệu khách truy cập. Cụ thể:\n\n*   **Products:** Chứa ID và tên của các sản phẩm (ví dụ: Pintury, Pixo, Floati).\n*   **Cities:** Chứa ID và tên của các thành phố.\n*   **Traffic channels:** Chứa ID và tên của các kênh lưu lượng truy cập (ví dụ: Google SEO, Google Ads, Facebook).\n*   **Pricing plans:** Chứa ID và tên của các gói giá (ví dụ: Light, Advanced, Premium).\n*   **Prices:** Chứa giá của từng sản phẩm theo từng gói giá.\n*   **Visitors data:** Chứa thông tin chi tiết về khách truy cập, bao gồm kênh truy cập, loại thiết bị, sản phẩm đã mua, gói giá đã chọn, thành phố và ngày trong tuần."
+  },
+  {
+    "role": "user",
+    "content": "tên các sản phẩm trong sheet Products"
+  },
+  {
+    "role": "assistant",
+    "content": "Pintury, Pixo, Floati, Artista, SprayPix, NONE\n"
+  },
+  {
+    "role": "user",
+    "content": "tài liệu nói về vấn đề gì?"
+  },
+  {
+    "role": "assistant",
+    "content": "Tài liệu này mô tả về APIzer và Bot API Call, hai công cụ được sử dụng để tương tác với website và lấy dữ liệu từ bên ngoài hệ thống Conductify AI. Cụ thể, APIzer được sử dụng để API hóa thông tin website trên máy tính Local và truyền dữ liệu lên server Conductify AI thông qua Bot API Call. Tài liệu cũng mô tả chi tiết các thành phần của APIzer (Input, Actions, Output) và Bot API Call (Name, Save API Response Variable Name, API URL, API JSON Body, API Header, API Method).\n"
+  },
+  {
+    "role": "user",
+    "content": "review tài liệu"
+  },
+  {
+    "role": "assistant",
+    "content": "Tài liệu cung cấp cái nhìn tổng quan về APIzer và Bot API Call, hai công cụ quan trọng để tương tác với website bên ngoài và thu thập dữ liệu cho Conductify AI. Tài liệu giải thích rõ ràng mục đích của từng công cụ và cách chúng phối hợp với nhau: APIzer dùng để API hóa website trên máy cục bộ, sau đó dữ liệu được truyền đến máy chủ Conductify AI thông qua Bot API Call.\n\n**Ưu điểm:**\n\n*   **Giải thích rõ ràng:** Tài liệu giải thích khái niệm và mục đích của APIzer và Bot API Call một cách dễ hiểu.\n*   **Cấu trúc tốt:** Việc chia APIzer thành các thành phần Input, Actions, Output giúp người đọc dễ dàng nắm bắt cấu trúc và chức năng của nó.\n*   **Chi tiết về Actions:** Phần mô tả các Actions của APIzer rất chi tiết, bao gồm cả mục đích, cú pháp và ví dụ (dù không đầy đủ). Điều này giúp người dùng hiểu rõ cách sử dụng từng Action.\n\n**Nhược điểm:**\n\n*   **Thiếu ví dụ:** Mặc dù có ví dụ về APIzer Input, nhưng tài liệu thiếu ví dụ cụ thể về cách sử dụng các Actions của APIzer. Ví dụ về cách sử dụng `extract`, `ai_click`, `input`, `scripting`,... sẽ giúp người đọc hiểu rõ hơn về cách chúng hoạt động.\n*   **Chưa giải thích rõ ràng về Output:** Tài liệu chỉ đề cập đến Input và Actions, nhưng chưa giải thích rõ ràng về thành phần Output của APIzer, đặc biệt là cấu trúc dữ liệu đầu ra.\n*   **Bot API Call cần chi tiết hơn:** Tài liệu chỉ đề cập đến Bot API Call một cách ngắn gọn. Cần có thêm thông tin về cách cấu hình Bot API Call, cách truyền dữ liệu từ APIzer đến Bot API Call và cách xử lý response từ API.\n*   **Một số chỗ diễn đạt chưa trôi chảy:** Một vài câu văn có thể được diễn đạt lại cho rõ ràng và mạch lạc hơn.\n\n**Đề xuất:**\n\n*   **Thêm ví dụ:** Bổ sung thêm các ví dụ cụ thể về cách sử dụng các Actions của APIzer.\n*   **Giải thích rõ về Output:** Thêm mô tả chi tiết về thành phần Output của APIzer, bao gồm cấu trúc dữ liệu và các trường thông tin.\n*   **Mở rộng về Bot API Call:** Thêm thông tin chi tiết về cách cấu hình Bot API Call, cách truyền dữ liệu từ APIzer và cách xử lý response.\n*   **Sửa lỗi chính tả và ngữ pháp:** Kiểm tra lại tài liệu để sửa các lỗi chính tả và ngữ pháp.\n\n**Kết luận:**\n\nTài liệu cung cấp một cái nhìn tổng quan về APIzer và Bot API Call, nhưng cần bổ sung thêm các ví dụ và thông tin chi tiết để giúp người dùng hiểu rõ hơn về cách sử dụng chúng. Việc cải thiện tài liệu sẽ giúp người dùng dễ dàng hơn trong việc tích hợp và sử dụng APIzer và Bot API Call trong dự án của họ.\n"
+  },
+  {
+    "role": "user",
+    "content": "tóm tắt tài liệu"
+  },
+  {
+    "role": "assistant",
+    "content": "Tài liệu mô tả về APIzer, một công cụ dùng để API hóa thông tin website trên máy tính Local và truyền dữ liệu lên server Conductify AI thông qua Bot API Call. APIzer bao gồm ba thành phần chính: Input (thông tin đầu vào), Actions (các thao tác tương tác và bóc tách dữ liệu từ website) và Output (dữ liệu trả về). Các Actions bao gồm các thao tác như điều hướng trang web, trích xuất dữ liệu, tương tác với các phần tử trên trang (click, nhập liệu), chờ đợi, cuộn trang, thực thi script và tóm tắt nội dung.\n"
+  }
+]
