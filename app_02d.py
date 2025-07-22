@@ -188,8 +188,8 @@ def user_input(user_question):
         st.error(f"Lỗi xử lý câu hỏi: {str(e)}")
 
 def main():
-    st.set_page_config(page_title="Chat with Documents", page_icon="📄")
-    st.header("Demo Chatbot phân tích tài liệu")
+    st.set_page_config(page_title="Read Documents", page_icon="📄")
+    st.header("Demo phân tích tài liệu 📄")
 
     # Khởi tạo và tải lịch sử chat
     if "chat_history" not in st.session_state:
