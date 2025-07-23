@@ -102,7 +102,7 @@ def get_text_from_documents(docs):
 def get_text_chunks(text):
     """Split text into chunks."""
     try:
-        text_splitter = RecursiveCharacterTextSplitter(chunk_size=4000, chunk_overlap=800)
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=8000, chunk_overlap=1000)
         chunks = text_splitter.split_text(text)
         return chunks
     except Exception as e:
